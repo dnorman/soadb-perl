@@ -1,0 +1,25 @@
+---
+abstract: 'Tests for perl-xs'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+  Test::Fatal: 0
+  Test::LeakTrace: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+  Module::Install::Rust: 0
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.18'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: XSTest
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  XSLoader: 0
+version: '0.01'
