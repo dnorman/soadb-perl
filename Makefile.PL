@@ -2,7 +2,7 @@ use inc::Module::Install;
 
 name "XSTest";
 version "0.01";
-abstract "Tests for perl-xs";
+abstract "Tests for soadb-perl";
 
 configure_requires "Module::Install::Rust" => 0;
 test_requires "Test::LeakTrace" => 0;
